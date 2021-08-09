@@ -1,0 +1,74 @@
+
+<%- include("partials/hearder") %>
+
+
+<form class="mainForm"action="/" method="post">
+
+   <input size="66" type="text" name="cityName" placeholder="Search.........."> 
+   <!-- <button type="submit" > Go</button> -->
+  
+  </form>
+  
+
+<div class="contain">
+
+
+
+
+
+    <div class="bg">
+
+        <video id="video" width="500" height="300" autoplay loop src=<%=URL%>>  </video>
+    </div>
+
+
+
+
+
+    <div class="text2 ">
+        
+ 
+        <p>   <%= time  %> </p>
+    </div>
+
+    <div class="text1">
+        
+        <p>  <%= name %>   </p>
+        <img src=<%=imageURL%> alt="">
+
+    </div>
+
+
+    <div class="text3">
+      
+        <p>  <%= temperature  %> °C </p>
+    </div>
+
+
+
+  
+
+
+        <p> The weather Status :  <%= main %> </p>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer") %>
